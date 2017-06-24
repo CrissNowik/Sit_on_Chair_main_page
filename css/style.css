@@ -12,9 +12,87 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'ralewayregular', Arial, sans-serif;
-color: #fff;
 }
 
 .container {
+  max-width: 100%;
   margin: 0 auto;
+}
+
+.navi {
+  width: 100%;
+  font-weight: 700;
+}
+
+.navi-half {
+  float: left;
+  width: 50%;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #000;
+  padding: 20px 70px;
+}
+
+.menu ul>li {
+  display: inline-block;
+  float: right;
+  padding-left: 25px;
+}
+.promoted {
+  color: #24ba9f;
+}
+header > [class^="header"] {
+
+/* IE10+ */
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #DEDEDE 100%);
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #DEDEDE 100%);
+/* Opera */
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #DEDEDE 100%);
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(100, #DEDEDE));
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #DEDEDE 100%);
+/* W3C Markup */
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #DEDEDE 100%);
+}
+
+.header-half {
+  padding: 70px 30px;
+  float: left;
+  width: 40%;
+  height: 500px;
+  text-align: center;
+}
+
+.header-half h1, a {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.header-half p {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+.header-half a {
+  padding: 10px 30px;
+  background-color: #24ba9f;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.header-switch {
+  padding: 140px 0;
+  float: left;
+  width: 10%;
+  height: 500px;
+}
+.left {
+  margin-left: 45%;
+  font-size: 90px;
+}
+
+.right {
+  margin-right: 45%;
+  font-size: 90px;
 }
