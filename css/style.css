@@ -4,7 +4,6 @@
          url('../fonts/ralewaykit/raleway-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 * {
@@ -15,22 +14,24 @@ font-family: 'ralewayregular', Arial, sans-serif;
 }
 
 .container {
-  max-width: 100%;
+  max-width: 90%;
   margin: 0 auto;
+  padding: 0 5px;
 }
 
 .navi {
   width: 100%;
-  font-weight: 700;
-}
-
-.navi-half {
-  float: left;
-  width: 50%;
+  height: 4rem;
+  font-weight:400;
   color: #fff;
   text-transform: uppercase;
   background-color: #000;
-  padding: 20px 70px;
+  }
+
+.navi__half {
+  float: left;
+  width: 50%;
+  padding: 20px 0;
 }
 
 .menu ul>li {
@@ -38,12 +39,15 @@ font-family: 'ralewayregular', Arial, sans-serif;
   float: right;
   padding-left: 25px;
 }
+
 .promoted {
   color: #24ba9f;
+  font-weight: 900;
 }
-header > [class^="header"] {
-
-/* IE10+ */
+.main-slider {
+  height: 27rem;
+  width: 100%;
+  /* IE10+ */
 background-image: -ms-linear-gradient(top, #FFFFFF 0%, #DEDEDE 100%);
 /* Mozilla Firefox */
 background-image: -moz-linear-gradient(top, #FFFFFF 0%, #DEDEDE 100%);
@@ -57,42 +61,45 @@ background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #DEDEDE 100%);
 background-image: linear-gradient(to bottom, #FFFFFF 0%, #DEDEDE 100%);
 }
 
-.header-half {
-  padding: 70px 30px;
+.main-slider__half {
+  height: 20rem;
+  width: 50%;
+  margin: 4rem 0;
   float: left;
-  width: 40%;
-  height: 500px;
+  position: relative;
   text-align: center;
+  border: 1px solid red;
+
 }
 
-.header-half h1, a {
-  text-transform: uppercase;
-  margin-bottom: 50px;
+.main-slider__half img {
+  position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+
 }
 
-.header-half p {
-  margin-bottom: 50px;
+.main-slider__half h1 {
+text-transform: uppercase;
+margin: 2.5rem 0;
+}
+
+.main-slider__half p {
+  text-align: center;
   font-size: 18px;
-}
-.header-half a {
-  padding: 10px 30px;
-  background-color: #24ba9f;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #fff;
-}
-.header-switch {
-  padding: 140px 0;
-  float: left;
-  width: 10%;
-  height: 500px;
-}
-.left {
-  margin-left: 45%;
-  font-size: 90px;
+  color: #000;
+  margin-bottom: 4rem;
 }
 
-.right {
-  margin-right: 45%;
-  font-size: 90px;
+.main-slider__button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  background-color: #24ba9f;
+  font-weight: 600;
+  border-radius: 10px;
 }
