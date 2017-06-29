@@ -196,7 +196,7 @@ font-size: 14px;
   padding: 30px 10px 30px 10px;
   margin: 0 50px 0 0;
   float: left;
-
+  text-transform: uppercase;
 }
 
 .midi {
@@ -262,4 +262,53 @@ font-size: 14px;
   bottom: 0;
   margin: auto;
   background-color: #fff;
+}
+.price-circle {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top:-370px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 2px solid #24ba9f;
+  border-radius: 100%;
+  opacity: 0.9;
+}
+.price-circle__num {
+  opacity: 1;
+  font-size: 50px;
+  margin: 30px auto 10px auto;
+  display: inline-block;
+  letter-spacing: -1px;
+  font-weight: 900;
+  line-height: 0.7;
+}
+.price-circle__value {
+  opacity: 1;
+  display: block;
+  margin: auto;
+  font-weight: 400;
+  font-size: 20px;
+}
+sup {
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-size: 20px;
+  vertical-align:text-top;
+}
+.price-circle--midi {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top:-370px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #24ba9f;
 }
