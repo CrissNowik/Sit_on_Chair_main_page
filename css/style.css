@@ -14,7 +14,7 @@ font-family: 'ralewayregular', Arial, sans-serif;
 }
 
 .container {
-  width: 90%;
+  width: 1094px;
   margin: 0 auto;
   padding: 0;
   border: 1px solid red;
@@ -66,7 +66,7 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #DEDEDE 100%);
 .slider__skip {
   height: 320px;
   width: 17px;
-  margin: 64px 17px;
+  margin: 64px 0 64px 40px;
   padding-top: 110px;
   float: left;
   position: relative;
@@ -85,19 +85,23 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #DEDEDE 100%);
   height: 320px;
   width: 45%;
   margin: 64px 16px;
+  padding: 0 10px;
   float: left;
   position: relative;
   text-align: center;
+  border: 1px solid red;
 }
 
 .slider__half h1 {
 text-transform: uppercase;
+font-size: 40px;
 margin: 40px 0 24px 0;
+font-weight: 400;
 }
 
 .slider__half p {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
   margin-bottom: 40px;
 }
@@ -105,6 +109,7 @@ margin: 40px 0 24px 0;
 .slider__button {
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 18px;
   color: #fff;
   padding: 16px 40px;
   background-color: #24ba9f;
@@ -168,6 +173,7 @@ font-size: 14px;
 .apart {
   display: block;
   width: 30%;
+  text-transform: uppercase;
 }
 
 .prices {
@@ -187,32 +193,36 @@ font-size: 14px;
 
 .pricer {
   width: 330px;
-  height: 700px;
+  height: 550px;
   text-align: center;
   background-color: #fff;
-  color: #24ba9f;
+  color: #69e2cc;
   position: relative;
-  border: 2px solid #24ba9f;
-  padding: 30px 10px 30px 10px;
+  border: 2px solid #69e2cc;
+  padding: 30px 0;
   margin: 0 50px 0 0;
   float: left;
   text-transform: uppercase;
 }
 
-.midi {
+.pricer--midi {
+  width: 330px;
+  height: 550px;
+  text-align: center;
+  background-color: #24ba9f;
   color: #fff;
   position: relative;
-  background-color: #24ba9f;
-}
-.first {
-  opacity: 0.4;
+  border: 2px solid #24ba9f;
+  padding: 30px 0;
+  margin: 0 50px 0 0;
+  float: left;
+  text-transform: uppercase;
 }
 .last {
   margin: 0;
-  opacity: 0.4;
 }
 .kolobig {
-  border: 2px solid #24ba9f;
+  border: 2px solid #69e2cc;
   border-radius: 100%;
   width: 50px;
   height: 50px;
@@ -235,7 +245,7 @@ font-size: 14px;
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: #24ba9f;
+  background-color: #69e2cc;
   opacity: 0.9;
 }
 .kolobig--midi {
@@ -267,12 +277,12 @@ font-size: 14px;
   width: 150px;
   height: 150px;
   position: absolute;
-  top:-370px;
+  top:-220px;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
-  border: 2px solid #24ba9f;
+  border: 2px solid #69e2cc;
   border-radius: 100%;
   opacity: 0.9;
 }
@@ -302,7 +312,7 @@ sup {
   width: 150px;
   height: 150px;
   position: absolute;
-  top:-370px;
+  top:-220px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -311,4 +321,76 @@ sup {
   border-radius: 100%;
   background-color: #fff;
   color: #24ba9f;
+}
+.pricer__services {
+  width: 100%;
+  background-color: #fff;
+  list-style-type: none;
+  margin: 200px 0 20px 0;
+  font-size: 28px;
+  text-transform: none;
+}
+.pricer__services li {
+  padding: 10px 0;
+  color: #24ba9f;
+}
+.pricer__services > li:nth-child(odd){
+  background-color: #24ba9f;
+  opacity: 0.3;
+  color: #000;
+}
+
+.pricer__services--flipcolor {
+  width: 100%;
+  background-color: #fff;
+  list-style-type: none;
+  margin: 200px 0 20px 0;
+  font-size: 28px;
+  text-transform: none;
+  color: #24ba9f;
+}
+
+.pricer__services--flipcolor li {
+  padding: 10px 0;
+  color: #24ba9f;
+}
+
+.pricer__services--flipcolor > li:nth-child(even){
+  background-color: #24ba9f;
+  opacity: 0.33;
+  color: #000;
+}
+.pricer__button {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 0;
+  background-color: #24ba9f;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  position: absolute;
+  top: 482px;
+  left: 102px;
+  right: 102px;
+  bottom: 20px;
+  margin: auto;
+  }
+
+.pricer__button--flipcolor {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 0;
+  background-color: #fff;
+  color: #24ba9f;
+  vertical-align: bottom;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  position: absolute;
+  top: 482px;
+  left: 102px;
+  right: 102px;
+  bottom: 20px;
+  margin: auto;
 }
