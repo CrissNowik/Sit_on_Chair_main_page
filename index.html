@@ -165,7 +165,33 @@
       <section class="contact">
         <div class="container">
           <h3 class="word--underlined apart">Kontakt</h3>
-        </div>
+            <form class="form" action="index.html" method="post">
+              <fieldset>
+                <div class="formhalf__datas">
+                  <input type="text" id="firstName" placeholder="Imię" autofocus>
+                  <input type="email" id="email" placeholder="email"  autofocus>
+                  <textarea name="infoOSobie"
+                    id="infoOSobie"
+                    cols=""
+                    rows="10"
+                    maxlength="10000"
+                    placeholder="Wiadomość"
+                    autofocus
+                  ></textarea>
+                </div>
+                <div class="formhalf__confirmation">
+                    <img src="images/red_chair.png" alt="Sit and confirm">
+                <div class="gather">
+                  <input type="checkbox" name="remember-me" value="remember" class="gather__remember-me">
+                  <label for="remember-me" class="gather__remember-me__txt">
+                    Zgadzam się na przetwarzanie <br> danych osobowych
+                  </label>
+                </div>
+                  <button type="submit" class="gather__button">wyślij</button>
+                </div>
+               </fieldset>
+            </form>
+          </div>
       </section>
       <footer>
 

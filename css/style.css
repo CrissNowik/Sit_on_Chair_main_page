@@ -394,3 +394,62 @@ sup {
   bottom: 20px;
   margin: auto;
 }
+.contact {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 0 0 0;
+}
+.formhalf__datas {
+  float: left;
+}
+
+.formhalf__confirmation {
+  float: left;
+  margin-left: 80px;
+}
+.form input, button {
+  display: block;
+}
+#firstName, #email {
+  height: 70px;
+  width: 620px;
+  margin: 20px 0;
+  font-size: 40px;
+  border: 1px solid #666;
+  opacity: 0.3;
+}
+#infoOSobie {
+  height: 190px;
+  width: 620px;
+  font-size: 40px;
+  border: 1px solid #666;
+  opacity: 0.3;
+}
+.gather {
+  margin: 30px 0;
+  padding-bottom: 50px;
+}
+.gather__remember-me {
+  display: inline-block;
+  float: left;
+  width: 32px;
+  height: 32px;
+  background-color: #24ba9f;
+  border: 1px solid #24ba9f;
+}
+.gather__remember-me__txt {
+  display: inline-block;
+  float: left;
+  color: #24ba9f;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.gather__button {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #24ba9f;
+  color: #fff;
+  padding: 15px 100px;
+  border-radius: 10px;
+}
