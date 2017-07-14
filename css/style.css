@@ -159,7 +159,11 @@ a:hover {
   font-weight: 600;
   border-radius: 10px;
 }
-
+a.slider__button:hover {
+  background-color: #fff;
+  color: #24ba9f;
+  border: 1px solid #24ba9f;
+}
 
 /*main content section*/
 
@@ -444,8 +448,10 @@ a:hover {
   margin: auto;
 }
 
-.pricer__button:hover {
-  box-shadow: 0 2px 2px 2px #24ba9f;
+a.pricer__button:hover {
+  background-color: #fff;
+  color: #24ba9f;
+  border: 1px solid #24ba9f;
 }
 
 .pricer__button--flipcolor {
@@ -465,6 +471,11 @@ a:hover {
   margin: auto;
 }
 
+a.pricer__button--flipcolor:hover {
+  background-color: #24ba9f;;
+  color: #fff;
+  border: 1px solid #fff;
+}
 
 /*contact section*/
 
@@ -512,10 +523,16 @@ a:hover {
 .gather__remember-me {
   display: inline-block;
   float: left;
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
   background-color: #24ba9f;
   border: 1px solid #24ba9f;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background: url('../images/form_ok.jpg') center no-repeat;
+    cursor: pointer;
 }
 
 .gather__remember-me__txt {
@@ -534,6 +551,7 @@ a:hover {
   color: #fff;
   padding: 15px 130px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 
