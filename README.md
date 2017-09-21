@@ -9,6 +9,7 @@ First steps are always dificult and shaky, but are necessary in order to achieve
 It's task from first part of Coders Lab course. 
 
 ### Demo:
+https://crissnowik.github.io/Sit_on_Chair_main_page/#
 
 
 ### Copyright:
